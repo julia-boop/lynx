@@ -6,14 +6,13 @@
     width: 100%;
     object-fit: fill;
     margin: 0 auto;
-    overflow-x: hidden;
-    
+    overflow: clip;
+    position: relative;
 }
 
 .home-container video{
     width: 100%;
     height: auto;
-    overflow-x: clip;
 }
 
 .image-container{
@@ -53,11 +52,35 @@
     width: 50px;
 }
 
+.video-container{
+    width: 100%;
+
+}
+
+.login-container{
+    position: absolute;
+    top: 36px;
+    left: 10px;
+    color: white;
+    font-weight: 100;    
+}
+
+.login-container div{
+    display: flex;
+    align-items: center;
+}
+
+.login-container a{
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
 @media (max-width: 1000px){
 
     .home-container video{
         width: auto;
         height: 100vh;
+        overflow-x: clip;
     }
 }
 

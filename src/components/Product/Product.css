@@ -1,7 +1,7 @@
 .product-container{
     background-image: url('../../../public/images/product-bg_1280.jpeg') ;
-    background-size: 100% 100%;
-    background-attachment: scroll;
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     height: max-content;
     width: 100%;

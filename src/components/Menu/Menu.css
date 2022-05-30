@@ -81,3 +81,9 @@
   .bm-item:hover {
     color: #ffffff;
   }
+
+  @media (max-width: 800px){
+    .bm-menu-wrap {
+      width: 100%!important;
+    }
+  }
