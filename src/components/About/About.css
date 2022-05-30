@@ -1,0 +1,38 @@
+.about-container{
+    background-color: #101d3f;
+    height: max-content;
+    width: 100%;
+    margin-top: -5px;
+    padding: 15%;
+    color: #ffffff;
+}
+
+.about-title{
+    margin-bottom: 30px;
+    padding-right: 75%;
+}
+
+.about-title h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.about-content h4{
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+.icon-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.icon img{
+    width: 300px;
+}
+
+.icon h3{
+    text-align: center;
+}

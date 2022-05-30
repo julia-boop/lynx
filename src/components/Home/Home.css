@@ -1,0 +1,51 @@
+#page-wrap {
+    padding-bottom: 10px;
+  }
+
+.home-container{
+    width: 100%;
+    object-fit: fill;
+    margin: 0 auto;
+}
+
+.home-container video{
+    width: 100%;
+    height: auto;
+}
+
+.image-container{
+    width: 100%;
+    top: 15px; 
+    margin: 0px;
+    z-index: 0; 
+    position: absolute;
+}
+
+.image-container h3{
+    margin: 5px 20% 5px 20%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.home-logo{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.home-logo img{
+    width: 70%;
+}
+
+.logo-container{
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    margin: 25px;
+}
+
+.logo-container img{
+    width: 50px;
+}

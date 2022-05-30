@@ -1,0 +1,42 @@
+.service-container{
+    height:max-content;
+    display:flex;
+}
+
+.service-img{
+    width: 50%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.service-img img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.service-content{
+    height: 100%;
+    width: 50%;
+    padding: 10%;
+}
+
+.service-content h1{
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.item img{
+    width: 10%;
+}
+
+.item h4{
+    margin-left: 10px;
+}

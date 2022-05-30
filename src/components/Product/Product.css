@@ -1,0 +1,35 @@
+.product-container{
+    background-image: url('../../../public/images/product-bg_1280.jpeg') ;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: max-content;
+    width: 100%;
+    padding: 15%;
+}
+
+.product-title h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.product-content{
+    background-color: #0000007c;
+    color: #ffffff;
+    padding: 30px;
+    font-size: 1.3rem;
+}
+
+.product-content h4{
+    margin: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.product-content ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
