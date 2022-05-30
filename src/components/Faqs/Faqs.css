@@ -10,3 +10,17 @@
     text-align: center;
     margin-bottom: 100px;
 }
+
+@media (max-width: 480px){
+    .faqs-container{
+        padding: 20%;
+    }
+
+    .faqs-title h1{
+        font-size: 3rem;
+    }
+
+    .faqs-content{
+        font-size: 1rem;
+    }
+}

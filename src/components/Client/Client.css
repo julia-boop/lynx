@@ -51,3 +51,33 @@
     text-align: center;
     margin-bottom: 15px;
 }
+
+@media (max-width: 768px){
+    .client-content-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .client-content{
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+        margin-right: 0px;
+        margin: 15px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 480px){
+    .client-container{
+        padding: 20%;
+    }
+
+    .client-title-container h1{
+        font-size: 3rem;
+    }
+
+    .client-content-container h4{
+        font-size: 1rem;
+    }
+}

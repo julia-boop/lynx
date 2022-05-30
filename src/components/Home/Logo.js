@@ -36,7 +36,7 @@ function Logo() {
         <Fade>
         <div className="logo-container" >
             <div>
-            <img src="/logos/Logo-06.png"/>
+            <img src="/logos/LOGO-06.png"/>
             </div>
         </div>
         </Fade>

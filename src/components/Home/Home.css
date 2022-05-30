@@ -49,3 +49,17 @@
 .logo-container img{
     width: 50px;
 }
+
+@media (max-width: 1000px){
+
+    .home-container video{
+        width: auto;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 480px){
+    .home-logo img{
+        width: 115%;
+    }
+}

@@ -18,3 +18,9 @@
     justify-self: center;
     margin: 10px;
 }
+
+@media (max-width: 480px){
+    .footer-container img{
+        width: 60px;
+    }
+}

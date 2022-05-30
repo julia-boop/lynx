@@ -44,7 +44,7 @@
 .form-container form input, .form-container form textarea, .form-container form button{
     width: 100%;
     padding: 10px;
-    margin: 10px;
+    margin-bottom: 20px;
     background-color: #3D53A4;
     color: #ffffff;
     border: none;
@@ -74,3 +74,41 @@
   ::-ms-input-placeholder { 
     color: #ffffff;
   }
+
+  @media (max-width: 768px){
+      .contact-container{
+          flex-direction: column;
+      }
+
+      .links-container, .form-container{
+          width: 100%;
+      }
+
+      .link-item{
+          justify-content: center;
+          flex-direction: column;
+      }
+  }
+
+  @media (max-width: 480px){
+    .form-container{
+        margin: 0;
+    }
+
+    .form-container h1{
+        font-size: 3rem;
+    }
+
+    .form-container form{
+        padding: 0px 20%;
+        width: 100%;
+    }
+
+    .link-item img{
+        width: 55px;
+    }
+
+    .link-item a {
+        font-size: 1rem;
+    }
+}
