@@ -57,23 +57,7 @@
 
 }
 
-.login-container{
-    position: absolute;
-    top: 36px;
-    left: 10px;
-    color: white;
-    font-weight: 100;    
-}
 
-.login-container div{
-    display: flex;
-    align-items: center;
-}
-
-.login-container a{
-    text-decoration: underline;
-    margin-left: 10px;
-}
 
 @media (max-width: 1000px){
 

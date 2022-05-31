@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import Fade from 'react-reveal/Fade'
+import {Link} from 'react-scroll';
+import './Login.css'
+
 
 
 function Login() {
@@ -30,13 +33,28 @@ function Login() {
            setIsVisible(true);
       }  
     };
+
+    const link1 = "http://misvalores.lynxbursatil.com.ar/"
+
     return (
         isVisible
         &&
         <Fade>
         <div className="login-container" >
-            <div>
-            <img src="/icons/login.svg"/> <a>Ingresa a tu cuenta</a>
+            <div className="login-item">
+              <a href={link1}>Operar</a>
+            </div>
+            <div className="login-item">
+            <Link 
+              to="contact" 
+              activeClass="active" 
+              smooth="true" 
+              style={{"cursor":"pointer"}} 
+              spy={true}
+              duration={2000}
+              delay={500}>
+                Abri tu cuenta
+              </Link>
             </div>
         </div>
         </Fade>

@@ -11,6 +11,7 @@ import Logo from './components/Home/Logo';
 import Client from './components/Client/Client';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Login from './components/Home/Login';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 //heroku
@@ -20,6 +21,7 @@ function App() {
     <Router>
     <div id="outer-container">
     <Menu/>
+    <Login/>
     <Logo/>
       <div id="page-wrap">
         <Home />

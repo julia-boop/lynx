@@ -1,0 +1,25 @@
+.login-container{
+    position: absolute;
+    top: 4%;
+    right: 9%;
+    display: flex; 
+    z-index: 100;
+    width: 20%;
+}
+
+.login-container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    /* background: #0ea6df; */
+    background: #257fc1;
+    border-radius: 10px;
+    padding:10px;   
+    margin-right: 10px;
+}
+
+.login-container a{
+    text-decoration: none;
+    color: white;
+}

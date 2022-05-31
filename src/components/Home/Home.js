@@ -2,13 +2,12 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './Home.css' 
 import Fade from 'react-reveal/Fade'
-import Login from './Login'
+// import Login from './Login'
 
 
 function Home() {
     return (
         <div className="home-container" id="home">
-            <Login/>
             <Fade>
             <div className="image-container" >
                 <Link to="/" className="home-logo">
