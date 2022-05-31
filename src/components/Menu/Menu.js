@@ -14,6 +14,7 @@ const NavBar = () => {
   const handleStateChange = (state) => {
     handleMenu(state.isOpen);
   };
+  const link1 = "http://misvalores.lynxbursatil.com.ar/"
   return (
     <Menu 
     right 
@@ -105,6 +106,21 @@ const NavBar = () => {
       delay={500}>
         <strong>07</strong> Contacto
       </Link>
+      <div className="menu-link-container">
+        <a href={link1} className="menu-item-link"><strong>08</strong> Operar</a>
+        <Link 
+        onClick={()=> handleCloseMenu()} 
+        className="menu-item-link" 
+        to="contact" 
+        activeClass="active" 
+        smooth="true" 
+        style={{"cursor":"pointer"}} 
+        spy={true}
+        duration={2000}
+        delay={500}>
+          <strong>09</strong> Abri tu cuenta
+        </Link>
+      </div>
     </Menu>
   );
 };

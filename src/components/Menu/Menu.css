@@ -82,8 +82,29 @@
     color: #ffffff;
   }
 
+  .menu-item-link{
+    display: none!important;
+  }
+
   @media (max-width: 800px){
     .bm-menu-wrap {
       width: 100%!important;
+    }
+
+    .menu-item-link{
+      display: initial!important;
+      background: white;
+      border-radius: 10px;
+      padding:10px;   
+      color: black;
+      margin-bottom: 10px;
+      text-decoration: none;
+      font-weight: 200;
+    }
+
+    .menu-link-container{
+      display: flex!important;
+      width: fit-content;
+      flex-direction: column;
     }
   }
