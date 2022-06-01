@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import './Home.css' 
 import Fade from 'react-reveal/Fade'
@@ -6,6 +6,10 @@ import Fade from 'react-reveal/Fade'
 
 
 function Home() {
+    let video = document.querySelector('video')
+    useEffect(() => {
+        video.play()
+    })
     return (
         <div className="home-container" id="home">
             <Fade>
@@ -17,7 +21,7 @@ function Home() {
             </div>
             </Fade>
             <div className="video-container"> 
-                <video muted={true} autoPlay loop src="/videos/video-bg.mp4">
+                <video className="video" muted={true} autoPlay playsInline loop src="/videos/video-bg.mp4">
                 <source  type="video/mp4"/>
                 </video>
             </div>
