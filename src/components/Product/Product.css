@@ -37,6 +37,7 @@
 @media (max-width: 480px){
     .product-container{
         padding: 20%;
+        background-attachment: initial;
     }
 
     .product-title h1{

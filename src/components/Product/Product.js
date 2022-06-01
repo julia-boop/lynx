@@ -4,6 +4,7 @@ import Slide from 'react-reveal'
 
 function Product() {
     return (
+        
         <div className="product-container" id="products">
             <Slide bottom>
             <div className="product-title">
