@@ -15,7 +15,6 @@
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    padding-left: 20px;
 }
 
 .link-item img{
@@ -73,6 +72,18 @@
   
   ::-ms-input-placeholder { 
     color: #ffffff;
+  }
+
+  .success-msg p{
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: #1987549a;
+    color: white;
+    border-radius: 10px;
+    transform: translateY(2px);
+    transition: ease-in-out 2s;
   }
 
   @media (max-width: 768px){
