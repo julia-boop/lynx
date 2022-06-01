@@ -7,9 +7,9 @@ import Fade from 'react-reveal/Fade'
 
 function Home() {
     let video = document.querySelector('video')
-    useEffect(() => {
-        video.play()
-    })
+    // useEffect(() => {
+    //     video.play()
+    // })
     return (
         <div className="home-container" id="home">
             <Fade>
