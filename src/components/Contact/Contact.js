@@ -6,20 +6,26 @@ import Fade from 'react-reveal'
 
 function Contact() {
     const form = useRef();
-    let succesmsg = document.querySelector('.success-msg')
-    let formsent = document.querySelector('form')
+    
 
     const sendEmail = (e) => {
       e.preventDefault();
   
       emailjs.sendForm('service_dcixk5v', 'template_gmj3buc', form.current, 'ta3gMWZHFw3Nx_YzG')
         .then((result) => {
-            succesmsg.innerHTML = '<p>El mensaje ha sido enviado con exito</p>'
+            let succesmsg = document.querySelector('.success-msg')
+            let formsent = document.querySelector('form')
+            succesmsg.innerHTML = '<p>El mensaje ha sido enviado con éxito</p>'
             formsent.reset()
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
-        });
+        }).then(() => {
+            setTimeout(() => {
+                let succesmsgsent = document.querySelector('.success-msg')
+                succesmsgsent.innerHTML = ''
+            }, 3000)
+        })
     };
     return (
         <div className="contact-container" id="contact">
