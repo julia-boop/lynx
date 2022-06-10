@@ -31,19 +31,19 @@ function Contact() {
         <div className="contact-container" id="contact">
             <div className="links-container">
                 <div className="link-item">
-                    <img src="/icons/linkedin-brands.png" alt="linkedin"></img>
+                    <img src="/images/linkedin-brands.png" alt="linkedin"></img>
                     <a href="https://www.linkedin.com/company/lynx-bursatil/mycompany/">LinkedIn Lynx Valores SA</a>
                 </div>
                 <div className="link-item">
-                    <img src="/icons/map-pin-solid.png" alt="map-pin"></img>
+                    <img src="/images/map-pin-solid.png" alt="map-pin"></img>
                     <a href="https://goo.gl/maps/9DH16Aj5o8vn8fw99">Av. Corrientes 330, CABA</a>
                 </div>
                 <div className="link-item">
-                    <img src="/icons/envelope-solid.png" alt="envelope"></img>
+                    <img src="/images/envelope-solid.png" alt="envelope"></img>
                     <a href="mailto:info@lynxbursatil.com.ar">info@lynxbursatil.com.ar</a>
                 </div>
                 <div className="link-item">
-                    <img src="/icons/phone-solid.png" alt="phone"></img>
+                    <img src="/images/phone-solid.png" alt="phone"></img>
                     <a>11-4394-5969</a>
                 </div>
             </div>
