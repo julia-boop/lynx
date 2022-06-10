@@ -17,7 +17,7 @@ function Home() {
                 <Link to="/" className="home-logo">
                     <img src="/logos/LOGO-05.png" alt="home-logo"></img>
                 </Link>
-                <h3>Brindamos herramientas para que invertir sea simple y seguro. Soluciones y alternativas a medida de las necesidades de cada cliente. Brindamos herramientas para que invertir sea simple y seguro.</h3>
+                <h3>Brindamos herramientas para que invertir sea simple y seguro. Soluciones y alternativas a medida de las necesidades de cada cliente.</h3>
             </div>
             </Fade>
             <div className="video-container"> 

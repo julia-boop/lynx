@@ -13,10 +13,10 @@ function Product() {
             </Slide>
             <Slide bottom>
             <div className="product-content">
-                <h4>A través de Lynx Valores SA los clientes tendrán acceso los productos financieros que el mercado de capitales ofrece a fin de diversificar su portfolio de inversiones, a través de nuestros asesores podrán invertir en: </h4>
+                <h4>A través de Lynx Valores SA los clientes tendrán acceso a los productos financieros que el mercado de capitales ofrece a fin de diversificar su portfolio de inversiones, a través de nuestros asesores podrán invertir en: </h4>
                 <ul>
-                    <li>Acciones locales (Renta Fija)</li>
-                    <li>Bonos soberanos y corporativos(Renta Variable)</li>
+                    <li>Acciones locales (Renta Variable)</li>
+                    <li>Bonos soberanos y corporativos (Renta Fija)</li>
                     <li>Opciones</li>
                     <li>Pases y Cauciones</li>
                     <li>Fideicomisos</li>
