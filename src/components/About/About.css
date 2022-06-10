@@ -54,6 +54,10 @@
         padding: 20%;
     }
 
+    .about-title{
+        padding-right: 10%;
+    }
+
     .about-title h1{
         font-size: 3rem;
     }
