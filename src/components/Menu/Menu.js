@@ -118,7 +118,7 @@ const NavBar = () => {
         spy={true}
         duration={2000}
         delay={500}>
-          <strong>09</strong> Abri tu cuenta
+          <strong>09</strong> Abrí tu cuenta
         </Link>
       </div>
     </Menu>

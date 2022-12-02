@@ -9,7 +9,7 @@
 
 .about-title{
     margin-bottom: 30px;
-    padding-right: 75%;
+    padding-right: 50%;
 }
 
 .about-title h1{
@@ -47,15 +47,16 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .about-title{
+        padding-right: 10%;
+    }
 }
 
 @media (max-width: 480px){
     .about-container{
         padding: 20%;
-    }
-
-    .about-title{
-        padding-right: 10%;
+        overflow-y: hidden;
     }
 
     .about-title h1{

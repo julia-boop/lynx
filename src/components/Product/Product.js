@@ -22,7 +22,7 @@ function Product() {
                     <li>Fideicomisos</li>
                     <li>Futuros BYMA</li>                
                 </ul>
-                <h4>Y una amplia gama de productos financieros tanto en el mercado local como en el internacional, además de que realizamos la custodia de los titulos y el pago de servicios de dividendos y renta financiera.</h4>
+                <h4>Y una amplia gama de productos financieros tanto en el mercado local como en el internacional, además, realizamos la custodia de los títulos y el pago de servicios de dividendos y renta financiera.</h4>
             </div>
             </Slide>
         </div>

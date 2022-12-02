@@ -14,7 +14,7 @@ function Client() {
                 <Fade left>
                 <div className="client-content">
                     <h4>
-                    En Lynx Valores trabajamos para identificar los instrumentos financieros que se adapten al perfil de inversión de nuestros clientes. Orientados a resultados, optimizamos carteras basados en la amplia gama de productos que ofrece el mercado financiero. Ademas de ofrecer un canal efectivo de comunicación entre asesores y comitentes para brindar soluciones financieras de forma rápida y precisa.
+                    En Lynx Valores trabajamos para identificar los instrumentos financieros que se adapten al perfil de inversión de nuestros clientes. Orientados a resultados, optimizamos carteras basados en la amplia gama de productos que ofrece el mercado financiero. Además de ofrecer un canal efectivo de comunicación entre asesores y comitentes para brindar soluciones financieras de forma rápida y precisa.
                     </h4>
                 </div>
                 </Fade>

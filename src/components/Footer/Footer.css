@@ -20,6 +20,11 @@
     margin: 10px;
 }
 
+.footer-container p{
+    text-align: center;
+    margin: 30px;
+}
+
 @media (max-width: 480px){
     .footer-container img{
         width: 60px;

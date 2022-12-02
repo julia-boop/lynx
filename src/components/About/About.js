@@ -14,7 +14,7 @@ function About() {
             <div className="about-content">
                 <div>
                     <h4>Fundada en Septiembre del año 2002 Lynx Valores SA se dedica desde sus comienzos a ofrecer una amplia gama de servicios financieros adecuándolos a las necesidades de las demandas particulares de los inversores en mercado de capitales. </h4>
-                    <h4>Sus directores con mas de 20 años de trayectoria en el mercado financiero local, garantizan las mas altas normas de calidad e idoneidad en el manejo de inversiones. </h4>
+                    <h4>Sus directores con más de 20 años de trayectoria en el mercado financiero local, garantizan las más altas normas de calidad e idoneidad en el manejo de inversiones. </h4>
                 </div>
                 <div className="icon-container">
                     <div className="icon">

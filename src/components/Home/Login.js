@@ -53,7 +53,7 @@ function Login() {
               spy={true}
               duration={2000}
               delay={500}>
-                Abri tu cuenta
+                Abrí tu cuenta
               </Link>
             </div>
         </div>

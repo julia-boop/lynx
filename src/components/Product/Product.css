@@ -34,10 +34,16 @@
     padding: 0px;
 }
 
+@media(max-width: 900px){
+
+    .product-container{
+        background-attachment: initial;
+    }
+}
+
 @media (max-width: 480px){
     .product-container{
         padding: 20%;
-        background-attachment: initial;
     }
 
     .product-title h1{

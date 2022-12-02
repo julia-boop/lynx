@@ -37,11 +37,11 @@ export default function ControlledAccordion() {
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography>¿Cuales son los requisitos para abrir una cuenta?</Typography>
+          <Typography>¿Cuáles son los requisitos para abrir una cuenta?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Los requisitos son sencillos: En el caso de las personas físicas basta con acreditar identidad y domicilio (Documento y servicio a su nombre). En el caso de las personas jurídicas se requerirá dependiendo de la naturaleza societaria documentación que acredite tanto la conformación de la misma como la identidad y domicilio de sus representantes. Además de esto se requeriran por exigencia de la UIF una declaración de persona políticamente expuesta.
+          Los requisitos son sencillos: En el caso de las personas físicas basta con acreditar identidad y domicilio (Documento y servicio a su nombre). En el caso de las personas jurídicas se requerirá dependiendo de la naturaleza societaria, documentación que acredite tanto la conformación de la misma como la identidad y domicilio de sus representantes. Además de esto se requeriran por exigencia de la UIF una declaración de persona políticamente expuesta.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -51,7 +51,7 @@ export default function ControlledAccordion() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography>¿Que Costo tiene abrir una cuenta?</Typography>
+          <Typography>¿Qué costo tiene abrir una cuenta?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -65,7 +65,7 @@ export default function ControlledAccordion() {
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography >¿Tengo un importe mínimo para operar?</Typography>
+          <Typography >¿Hay un importe mínimo para operar?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -83,7 +83,7 @@ export default function ControlledAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          La comisión depende exclusivamente de la operación a realizar. Para consultar el cuadro vigente presione aquí
+          La comisión depende exclusivamente de la operación a realizar. Para consultar el cuadro vigente <a href="/docs/Aranceles_comisiones.pdf" download>presione aquí</a>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -93,11 +93,11 @@ export default function ControlledAccordion() {
           aria-controls="panel6bh-content"
           id="panel6bh-header"
         >
-          <Typography >¿Por que al momento de la apertura de cuenta debo realizar la declaración de persona políticamente expuesta?</Typography>
+          <Typography >¿Por qué al momento de la apertura de cuenta debo realizar la declaración de persona políticamente expuesta?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Es un requisito fundamental de la UIF que regula la actividad financiera. Para determinar si dicha declaración le corresponden ingrese aquí
+          Es un requisito fundamental de la UIF que regula la actividad financiera. Para determinar si dicha declaración le corresponden <a href="/docs/PePs.pdf" download>ingrese aquí.</a>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -111,7 +111,7 @@ export default function ControlledAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Por seguridad todas las operaciones son realizadas por comitentes aquí
+          Por seguridad todas las operaciones son realizadas por comitentes aquí.
           </Typography>
         </AccordionDetails>
       </Accordion>

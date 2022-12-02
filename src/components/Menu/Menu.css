@@ -86,7 +86,7 @@
     display: none!important;
   }
 
-  @media (max-width: 800px){
+  @media (max-width: 900px){
     .bm-menu-wrap {
       width: 100%!important;
     }
