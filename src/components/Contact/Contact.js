@@ -13,7 +13,7 @@ function Contact() {
           email: document.querySelector('.input-email').value,
           text: document.querySelector('.input-text').value
       }
-      emailjs.sendForm('service_2f4uu6a', 'template_kfev3s4', e.target, 'E6FWqqpm_2ck8YeVV')
+      emailjs.sendForm('service_2f4uu6a', 'template_5phezp2', form.current, 'E6FWqqpm_2ck8YeVV')
         .then((result) => {
             let succesmsg = document.querySelector('.success-msg')
             let formsent = document.querySelector('form')
