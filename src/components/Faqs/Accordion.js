@@ -97,7 +97,7 @@ export default function ControlledAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Es un requisito fundamental de la UIF que regula la actividad financiera. Para determinar si dicha declaración le corresponden <a href="/docs/PePs.pdf" download>ingrese aquí.</a>
+          Es un requisito fundamental de la UIF que regula la actividad financiera. Para determinar si dicha declaración le corresponden <a href="/docs/PEP.pdf" download>ingrese aquí.</a>
           </Typography>
         </AccordionDetails>
       </Accordion>
