@@ -14,7 +14,7 @@ const NavBar = () => {
   const handleStateChange = (state) => {
     handleMenu(state.isOpen);
   };
-  const link1 = "http://misvalores.lynxbursatil.com.ar/"
+  const link1 = "https://virtualbroker-lynx.aunesa.com/auth/signin"
   return (
     <Menu 
     right 
